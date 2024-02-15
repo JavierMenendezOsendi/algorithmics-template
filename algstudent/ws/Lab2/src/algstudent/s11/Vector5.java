@@ -1,0 +1,22 @@
+package algstudent.s11;
+
+public class Vector5 {
+
+	public static void main(String arg []) {
+		int repetitions = Integer.parseInt(arg[0]);
+		long t1,t2;
+		int tsum = 0;
+		
+		for (int n=10; n<=10000; n*=5){
+			  
+			  t1 = System.currentTimeMillis();
+			  //We have to repeat the whole process to be measured
+			  for (int repetition=1; repetition<=repetitions; repetition++){    	
+			     //tsum = Vector1.sum(v);
+			  }
+			  t2 = System.currentTimeMillis();
+			  System.out.printf("SIZE=%d TIME=%d milliseconds SUM=%d NTIMES=%d\n", n, t2-t1, tsum, repetitions);	
+		}
+		
+	}
+}

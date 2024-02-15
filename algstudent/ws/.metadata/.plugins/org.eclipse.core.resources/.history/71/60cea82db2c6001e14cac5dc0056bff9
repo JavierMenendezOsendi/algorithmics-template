@@ -1,0 +1,20 @@
+package algstudent.s11;
+
+public class Vector5 {
+
+	public static void main(String arg []) {
+		int repetitions = Integer.parseInt(arg[0]);
+		
+	}
+	
+	public static void maximum(int[]a, int[]m){
+		  int n = a.length;
+		  m[0] = 0; //Initial position for max value
+		  m[1] = a[0]; //Initial max value
+		  for (int i=1; i<n; i++) //The rest of the elements
+		     if (a[i] > m[1]) {
+		    	m[0] = i;
+		     	m[1] = a[i];
+		     }
+		} 
+}

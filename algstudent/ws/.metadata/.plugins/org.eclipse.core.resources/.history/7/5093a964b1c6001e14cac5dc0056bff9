@@ -1,0 +1,11 @@
+package algstudent.s11;
+
+public class Vector5 {
+
+	public static void main(String arg []) {
+		int repetitions = Integer.parseInt(arg[0]);
+		
+	}
+	
+	
+}
